@@ -12,7 +12,12 @@
         <nav class="menu">
             <ul>
                 <li><img src="../multimedia/amande.jpg" alt=""></li> <br>
-            <li><a href="../index.html">HOME</a></li>
+                <div class="user">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-circle-user"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div><br>
+                <li><a href="../index.html">HOME</a></li>
                 <li><a href="../pages/productos.html">PRODUCTOS</a></li>
                 <li><a href="../pages/nosotros.html">NOSOTROS</a></li>
                 <li class="barra"><a href="../pages/contacto.html">CONTACTO</a></li>
@@ -20,30 +25,33 @@
             </ul>
         </nav>
         </header>
-<main class="fondo">
+    <main class="fondo">
     <form class="estilo" action="enviar.php" method="post" enctype="text/plain">
-        <label class="formu">Nombre</label><br>
+        <label class="formu">Nombre</label><br><br>
         <input type="text"><br>
         <br>
-        <label class="formu">Teléfono</label><br>
+        <label class="formu">Teléfono</label><br><br>
         <input type="number"><br>
         <br>
-        <label class="formu">Mail</label><br>
+        <label class="formu">Mail</label><br><br>
         <input type="email"><br>
         <br>
-        <p class="formu">Dejanos tu mensaje</p>
+        <p class="formu">Dejanos tu mensaje</p><br>
         <textarea name="mensaje" id="" cols="50" rows="10"></textarea><br>
         <br>
-        <input type="submit" value="enviar">
+        <input type="submit" class="enviar" value="Enviar">
 </main>   
     </form>
     <footer>
         <p class="footer">Amamos formar parte de cada momento.</p>
         <p class="foot">Sigamos en contacto</p>
         <div class="redes">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.facebook.com/amandepatisseriebrc"><i class="fa-brands fa-facebook"></i>
+            <a href="https://www.instagram.com/amandepatisserie/"><i class="fa-brands fa-instagram"></i>
     </div>
     </footer>
+    <a href="#" class="subir">
+        <i class="fa-regular fa-circle-up"></i>
+     </a>
 </body>
 </html>
