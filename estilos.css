@@ -24,38 +24,37 @@ body{
     overflow-x: hidden; 
 }
 
-header li img{
+.menu img{
   width: 350px;
   padding-top: 50px;
   padding-bottom: 40px;
 }
-  .menu ul{
+.menu ul{
     list-style: none;
     font-family: soberba;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bolder;
     text-align: center;
 }
 .menu ul li{
+    margin-left: 10px;
     display: inline;
-    padding-left: 80px;
+    align-items: center;
     color: black;
+    margin-bottom: -20px;
 }
 .menu a{
     color: black;
 }
 
-
 header{
     padding: 0px;
 }
 
-
 .menu a:hover{
     color:#7D6529;
-text-decoration: none;
+    text-decoration: none;
 }
-
 
 h2, h3,h4, p, ul{
     font-family: modern;
@@ -71,13 +70,14 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -15px;
     margin-bottom: 30px;
     flex-direction: column;
 }
 main h1{
     font-family: modern;
 }
+
+/* FIN GENERAL */
 /* ICONOS */
 .redes{
     font-size: 50px;
@@ -151,7 +151,6 @@ main h1{
 
 /* TERMINA ICONOS */
 
-
 .menu{
     font-family:serif;
     text-align: center;
@@ -163,7 +162,7 @@ main h1{
 .barra{
     background-color: #E6CA99;
     color: #7D6529;
-    padding: 15px 75px ;
+    padding: 25px 75px ;
     text-decoration: none;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
@@ -197,12 +196,14 @@ main h1{
     border-radius: 50px;
     margin-right: 30px;
 }
-.incluye li{
+.incluye{
     font-size: 20px;
+    font-weight: 500;
 }
 
 h1{
     font-size: 40px;
+    font-weight: bold;
     font-family: modern;
     width: 500px;
     background-color: #fff;
@@ -216,9 +217,9 @@ h1{
     color: #7D6529;
 }
 .precio{
+    font-weight: bolder;
     list-style: none;
     text-align: center;
-    font-weight: bold;
 }
 
 .destacados{
@@ -271,6 +272,7 @@ h3{
     font-family: modern;
     margin-bottom: 10px;
     font-size: 30px;
+    font-weight: bolder;
 }
 
 h4{
@@ -278,9 +280,11 @@ h4{
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 25px;
+    font-weight: bold;
 }
 
 p{
+    align-items: center;
     font-family: modern;
     margin-bottom: 10px;
     margin-bottom: 30px;
@@ -454,28 +458,11 @@ transform: scale(1.03);
 /* TERMINA NOSOTROS */
 
 /* CONTACTO */
-
-.formu{
-    font-family: modern;
-    font-size: 25px;
-    font-weight: bold;
-}
-input{
-    width: 600px;
-    height: 50px;
-    margin-bottom: 20px;
-    border-radius: 60px;
-    border: none;
-}
-textarea{
-    width: 600px;
-    border-radius: 30px;
-    border: none;
-}
 .enviar{
     background-color: #7D6529;
     color: #fff;
-    width: 100px;
+    width: 120px;
+    padding: 10px;
     font-family: modern;
     font-size: 20px;
     font-weight: bolder;
@@ -487,7 +474,24 @@ textarea{
     background-color: #fff;
     color: #7D6529;
 }
+form{
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+label{
+    font-family: modern;
+    font-size: 25px;
+    font-weight: bold;
+}
 
+.form-control{
+    width: 600px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    border: none;
+    grid-template-columns: repeat (1, 5fr);
+}
 /* TERMINA CONTACTO */
 
 /* LOCAL */
