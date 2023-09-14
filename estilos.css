@@ -1,14 +1,14 @@
 @font-face {
     font-family: soberba;
-    src: url(Fonts/SoberbaSerif-Regular.ttf);
+    src: url(fonts/SoberbaSerif-Regular.ttf);
 }
 @font-face {
     font-family: simple;
-    src: url(Fonts/Simple\ Monologue\ DEMO.otf);
+    src: url(fonts/Simple\ Monologue\ DEMO.otf);
 }
 @font-face {
     font-family: modern;
-    src: url(Fonts/ModernSans-Light.otf);
+    src: url(fonts/ModernSans-Light.otf);
 }
 
 
