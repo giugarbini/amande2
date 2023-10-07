@@ -256,13 +256,13 @@ h1 {
   display: flex;
   margin-top: 100px;
   margin-bottom: 400px;
-  align-items: center;
+  justify-content: center;
 }
 .productos .cajas .caja {
   height: 500px;
   width: auto;
   justify-content: center;
-  margin-left: 70px;
+  margin: 20px;
   border-radius: 40px;
   padding: 30px;
   background-color: #fff;

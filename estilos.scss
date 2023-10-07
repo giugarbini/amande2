@@ -64,9 +64,6 @@ main {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .logo{
-    text-align: center;
-  }
   ul{
     list-style: none;
     font-family: soberba;
@@ -287,12 +284,12 @@ h1{
       display: flex;
       margin-top: 100px;
       margin-bottom: 400px;
-      align-items: center;
+      justify-content: center;
       .caja{
         height: 500px;
         width: auto;
         justify-content: center;
-        margin-left: 70px;
+        margin: 50px;
         border-radius: 40px;
         padding: 30px;
         background-color: $blanco;
