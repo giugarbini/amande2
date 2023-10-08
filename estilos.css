@@ -37,35 +37,39 @@ main h1 {
   font-weight: bolder;
 }
 
-.menu img {
+.menu .logo {
+  text-align: center;
+}
+
+img {
   width: 350px;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 40%;
 }
-.menu ul {
+
+ul {
   list-style: none;
   font-family: soberba;
   font-size: 45px;
   font-weight: bolder;
   text-align: center;
 }
-.menu ul li {
+ul li {
   margin-left: 10px;
   display: inline;
   align-items: center;
   color: #000;
   margin-bottom: -20px;
 }
-.menu ul li a {
+ul li a {
   color: #000;
   text-decoration: none;
 }
-.menu ul li a:hover {
+ul li a:hover {
   color: #7D6529;
   text-decoration: none;
 }
-.menu ul li .barra {
+ul li .barra {
   background-color: #E6CA99;
   color: #7D6529;
   padding: 25px 75px;
@@ -125,7 +129,7 @@ h1 {
 
 .call {
   width: 900px;
-  height: 70%;
+  height: 700px;
   background-color: #fff;
   padding: 30px;
   font-family: modern;
@@ -165,6 +169,8 @@ h1 {
 .call ul {
   margin-bottom: 50px;
   margin-left: 350px;
+  font-family: modern;
+  text-align: left;
 }
 .call img {
   float: left;
