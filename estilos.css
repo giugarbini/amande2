@@ -307,6 +307,11 @@ h1 {
   padding: 11px 21px;
   font-size: 21px;
 }
+@media only screen and (min-width: 480px) {
+  .productos .cajas {
+    flex-wrap: wrap;
+  }
+}
 
 .main-nosotros {
   height: 100%;
@@ -314,21 +319,13 @@ h1 {
   background-color: #E6CA99;
   border-radius: 120px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  flex-direction: column;
 }
 .main-nosotros .contenedor {
   margin-left: 100px;
   justify-content: center;
+  display: flex;
 }
 .main-nosotros .contenedor .grid {
-  display: flex;
-  float: right;
-  margin-top: 150px;
-  margin-bottom: 70px;
-  margin-left: 20px;
   height: 850px;
   width: 800px;
   border-radius: 30px;
@@ -337,7 +334,6 @@ h1 {
   grid-template-rows: repeat(3, 200px);
   grid-template-areas: "img1 img2 img3" "img1 img4 img3" "img6 img4 img5" "img6 img7 img7";
   grid-gap: 20px;
-  padding: 30px;
 }
 .main-nosotros .contenedor .item {
   background-size: cover;
@@ -386,6 +382,9 @@ h1 {
   text-align: justify;
   margin-right: 100px;
   float: left;
+}
+.main-nosotros .parrafos {
+  width: 50%;
 }
 .main-nosotros .nosotros:first-child {
   margin-top: 100px;
