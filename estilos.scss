@@ -157,7 +157,7 @@ h1{
 
 .call{
   width: 900px;
-  height: 700px;
+  height: 70%;
   background-color: $blanco;
   padding: 30px;
   font-family: modern;
@@ -172,7 +172,7 @@ h1{
   p{
     margin-left: 20px;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -203,6 +203,7 @@ h1{
     float:left;
     border-radius: 50px;
     margin-right: 30px;
+    width: auto;
   }
   .incluye{
       h4{
@@ -243,6 +244,7 @@ h1{
       border-radius: 50px;
       margin-top: 10px;
       margin-bottom: 50px;
+      width: auto;
     }
     a{
       margin: 20px;
@@ -305,6 +307,7 @@ h1{
             border-radius: 40px;
             margin-bottom: 40px;
             margin-top: 20px;
+            width: 250px;
           }
         }
       h2{
@@ -335,17 +338,11 @@ h1{
       padding: 11px 21px;
       font-size: 21px;
     }
-    @media only screen and  (min-width:480px){
-      .cajas{
-          flex-wrap: wrap;
-      }
-  }
 }
 // FIN PRODUCTOS
 
 // NOSOTROS
 .main-nosotros{
-  // @include main;
   height:100%;
   width:100%;
   background-color: $beige;
@@ -419,12 +416,20 @@ h1{
         grid-area: img7;
     }
   }
+  // .nosotros{
+  //   font-family: modern;
+  //   font-size: 28px;
+  //   font-weight: bolder;
+  //   text-align: justify;
+  //   margin-right: 100px;
+  // }
   .nosotros{
     font-family: modern;
-    // float: left;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: bolder;
     text-align: justify;
+    margin-right: 100px;
+    float: left;
   }
   .nosotros:first-child{
     margin-top: 100px;
@@ -432,7 +437,7 @@ h1{
   .nosotros:last-child{
     margin-bottom: 200px;
 }
-}
+  }
 
 // FIN NOSOTROS
 
