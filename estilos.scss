@@ -23,17 +23,6 @@
   $negro: #000;
   $blanco: #fff;
 
-  // @mixin main ($height, $width, $background-color, $border-radius, $display, $justify-content, $align-items, $margin-bottom, $flex-direction){
-  //   height:100%;
-  //   width:100%;
-  //   background-color: $beige;
-  //   border-radius:120px;
-  //   display:flex;
-  //   justify-content:center;
-  //   align-items:center;
-  //   margin-bottom:30px;
-  //   flex-direction:column;
-  // }
 
 // GENERALES
 body {
@@ -345,7 +334,6 @@ h1{
 
 // NOSOTROS
 .main-nosotros{
-  // @include main;
   height:100%;
   width:100%;
   background-color: $beige;
@@ -363,7 +351,7 @@ h1{
       display: flex;
       float: right;
       margin-top: 150px;
-      margin-bottom: 70px;
+      // margin-bottom: 20px;
       margin-left: 20px;
       height: 850px;
       width: 800px;
